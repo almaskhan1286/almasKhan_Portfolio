@@ -25,9 +25,7 @@ import seo from "./company/seo.png";
 import ui from "./company/ui.jpg";
 import webs from "./company/webs.png";
 import app from "./company/app.png";
-
-
-import carrent from "./carrent.png";
+import unichat from "./unichat.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -59,7 +57,7 @@ export {
   seo,
   ui,
   app,
-  carrent,
+  unichat,
   jobit,
   tripguide,
 };
