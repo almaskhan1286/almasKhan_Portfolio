@@ -12,7 +12,8 @@ import {
   seo,
   ui,
   app,
-  carrent,
+  // carrent,
+  unichat,
   jobit,
   tripguide,
   canva,
@@ -154,37 +155,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "UniChat",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "UniChat is a modern and user-friendly real-time chat application, provides a hassle-free way to connect and chat with friends or colleagues in a secure and efficient manner.",
     tags: [
       {
-        name: "react",
+        name: "⚛React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "🔥Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "💬Chat Engine",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: unichat,
+    source_code_link: "https://github.com/almaskhan1286/unichat",
   },
   {
-    name: "Job IT",
+    name: "New Here",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     tags: [
       {
-        name: "react",
+        name: "⚛React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "🔥Firebase",
         color: "green-text-gradient",
       },
       {
@@ -196,16 +197,16 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "New Here",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     tags: [
       {
-        name: "nextjs",
+        name: "⚛React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "🔥Firebase",
         color: "green-text-gradient",
       },
       {
