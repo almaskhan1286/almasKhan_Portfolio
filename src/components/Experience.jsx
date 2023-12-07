@@ -5,6 +5,8 @@ import {
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 
+import { TypeAnimation } from 'react-type-animation';
+
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
@@ -61,10 +63,20 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Services
+          Experties & SKills
         </h2>
         <p className={` sm:text-[16px] text-secondary text-center text-sm`}>
-        Elevating Your Business with Exceptional Services
+        {/* Elevating Your Business with Exceptional Services */}
+        <TypeAnimation
+        sequence={[
+          `WHAT ?`,
+          1000,
+          "CAN I DO",
+        ]}
+        speed={50}
+        style={{ whiteSpace: 'pre-line', fontSize: '1em' }}
+        repeat={Infinity}
+      />
         </p>
       </motion.div>
 

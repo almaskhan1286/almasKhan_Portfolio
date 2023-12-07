@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm an passionate Web Developer. Proficient in <span className="text-white">JavaScript & React</span> and also have some experience with libraries like <span className="text-white">framer-motion, Tilt.js</span> to build interactive web applications. I'm a dedicated learner and am excited to work on projects that challenge me and help me grow as a developer. Let's team up to turn your web development ideas into reality🚀
+        I'm an passionate Web Developer. Love to write code in Javascript. Proficient in <span className="text-white">Front-end</span>, while also possessing a comfortable proficiency in backend technologies, particularly in <span className="text-white">MERN stack </span> to build interactive web applications. My hands-on approach and strong foundation in these technologies ensure that I bring a creative and solutions-oriented mindset to your team. I'm eager to contribute my skills and passion for web development to drive innovation and success in this role. I'm a dedicated learner and am excited to work on projects that challenge me and help me grow as a developer. Let's team up to turn your web development ideas into reality🚀
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>

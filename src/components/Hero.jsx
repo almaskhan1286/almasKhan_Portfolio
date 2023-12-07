@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+import { TypeAnimation } from 'react-type-animation';
+
 import { styles } from "../styles";
 // import { ComputersCanvas } from "./canvas";
 
@@ -19,8 +21,22 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Almas Khan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I design & develop <br className='sm:block hidden' />
-            web applications
+            I design & develop... <br className='sm:block hidden' />
+            
+
+              <TypeAnimation
+          sequence={[
+            `web applications`,
+            1000,
+            "websites",
+            1000,
+            "UI/UX Designs",
+          ]}
+          speed={50}
+          style={{ whiteSpace: 'pre-line', fontSize: '1em' }}
+          repeat={Infinity} className="text-[#915EFF]"
+        />
+
           </p>
         </div>
       </div>

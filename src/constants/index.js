@@ -12,14 +12,15 @@ import {
   seo,
   ui,
   app,
-  // carrent,
   unichat,
   jobit,
-  tripguide,
+  // tripguide,
   canva,
   illustrator,
   photoshop,
   ux,
+  mongodb,
+  nodejs,
 } from "../assets";
 
 
@@ -58,6 +59,14 @@ const technologies = [
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Nodejs",
+    icon: nodejs,
   },
   {
     name: "Tailwind CSS",
@@ -127,26 +136,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    // designation: "CFO",
+    // company: "g",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    // designation: "COO",
+    // company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    // designation: "CTO",
+    // company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -176,21 +185,25 @@ const projects = [
     source_code_link: "https://github.com/almaskhan1286/unichat",
   },
   {
-    name: "New Here",
+    name: "MoviX",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "MovieX is a feature-rich web application built with React.js, Sass, Axios, and Redux, offering a delightful movie browsing experience. Infinite scrolling,Responsive design",
     tags: [
       {
-        name: "⚛React",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "🔥Firebase",
+        name: "Scss",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Axios",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
@@ -214,7 +227,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    // image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
